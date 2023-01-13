@@ -1,1 +1,1 @@
-A repository to try out and practice using typescript with JavaScript as well as typescript with React
+A repository to try out and practice using typescript with JavaScript as well as typescript with React.  Currently going through the documentation and making my own examples while simultaneously tweaking my dev enviroment to properly work with typescript. 
