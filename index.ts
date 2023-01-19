@@ -35,3 +35,16 @@ beWhatever = "30";
 let beNumber: number;
 beNumber = 30;
 // beNumber = "30"; would throw an error in index.ts
+
+interface User {
+  name: string;
+  ownPet: boolean;
+}
+
+const alexUser: User = {
+  name: "Alex",
+  ownPet: true,
+};
+
+console.log(alexUser);
+console.log('trying out getting the value of alexuser.name ', alexUser.name);

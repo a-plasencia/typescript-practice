@@ -30,4 +30,9 @@ beWhatever = 30;
 beWhatever = "30";
 let beNumber;
 beNumber = 30;
-// beNumber = "30"; would throw an error in index.ts
+const alexUser = {
+    name: "Alex",
+    ownPet: true,
+};
+console.log(alexUser);
+console.log('trying out getting the value of alexuser.name ', alexUser.name);
