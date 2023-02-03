@@ -48,3 +48,8 @@ const alexUser: User = {
 
 console.log(alexUser);
 console.log('trying out getting the value of alexuser.name ', alexUser.name);
+
+//Made a few union examples.  These allow you to make a name that can be multiple types.
+//MyBool in this instance can either be true or false.  But if you hover over it it's a boolean.
+type MyBool = true | false;
+type WindowStates = "open" | "closed";
